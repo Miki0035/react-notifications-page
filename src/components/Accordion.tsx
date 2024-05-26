@@ -44,7 +44,7 @@ const Accordion: React.FC<AccordionProps> = ({
           )}
           </div>
       {comment && (
-        <textarea name="" id="" className="comment" value={comment} />
+        <textarea name="comment" id="comment" className="comment" value={comment} />
       )}
         </div>
       </div>
